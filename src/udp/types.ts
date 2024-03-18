@@ -9,8 +9,9 @@ export enum UdpCProtocol {
 }
 
 export enum HeaderFlags {
-    HasConnectToken = 0,
-    HasPipeline = 1,
+    None = 0,
+    HasConnectToken = 1,
+    HasPipeline = 2,
 }
 
 export interface Packet {
