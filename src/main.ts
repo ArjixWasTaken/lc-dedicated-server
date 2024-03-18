@@ -14,6 +14,7 @@ app.use((req, res) => {
                 SessionId: packet.SessionId
             });
 
+            // TODO: Investigate what the trailing 8 bytes are supposed to be.
             res.send(Buffer.concat([header, Buffer.alloc(8)]));
             break;
         }
