@@ -13,10 +13,3 @@ export enum HeaderFlags {
     HasConnectToken = 1,
     HasPipeline = 2,
 }
-
-export interface Packet {
-    id: Buffer
-    type: UdpCProtocol
-    flags: HeaderFlags
-    body: Buffer
-}

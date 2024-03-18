@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "main": "src/main.ts",
-  "license": "GPL-3.0-only",
+  "license": "MIT",
   "scripts": {
     "start": "vite-node src/main.ts"
   },
@@ -13,5 +13,8 @@
     "typescript": "^5.2.2",
     "vite": "^5.1.6",
     "vite-node": "^1.4.0"
+  },
+  "dependencies": {
+    "struct-fu": "^1.2.1"
   }
 }
