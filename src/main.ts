@@ -1,7 +1,7 @@
-import { handlers } from './handlers';
-import { Logger } from './logger';
-import { UdpServer } from './udp-server';
-import { PacketParser } from './udp/utils';
+import { handlers } from './handlers/index.ts';
+import { Logger } from './logger.ts';
+import { UdpServer } from './udp-server.ts';
+import { PacketParser } from './udp/utils.ts';
 
 const app = new UdpServer(6969, "127.0.0.1");
 
