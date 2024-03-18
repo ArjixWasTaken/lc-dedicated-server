@@ -1,0 +1,17 @@
+{
+  "name": "lc-server",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/main.ts",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "start": "vite-node src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6",
+    "vite-node": "^1.4.0"
+  }
+}
