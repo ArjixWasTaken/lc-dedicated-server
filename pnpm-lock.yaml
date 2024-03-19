@@ -8,6 +8,9 @@ dependencies:
   struct-fu:
     specifier: ^1.2.1
     version: 1.2.1
+  tslog:
+    specifier: ^4.9.2
+    version: 4.9.2
 
 devDependencies:
   '@types/node':
@@ -459,6 +462,11 @@ packages:
 
   /struct-fu@1.2.1:
     resolution: {integrity: sha512-QrtfoBRe+RixlBJl852/Gu7tLLTdx3kWs3MFzY1OHNrSsYYK7aIAnzqsncYRWrKGG/QSItDmOTlELMxehw4Gjw==}
+    dev: false
+
+  /tslog@4.9.2:
+    resolution: {integrity: sha512-wBM+LRJoNl34Bdu8mYEFxpvmOUedpNUwMNQB/NcuPIZKwdDde6xLHUev3bBjXQU7gdurX++X/YE7gLH8eXYsiQ==}
+    engines: {node: '>=16'}
     dev: false
 
   /typescript@5.2.2:

@@ -15,6 +15,7 @@
     "vite-node": "^1.4.0"
   },
   "dependencies": {
-    "struct-fu": "^1.2.1"
+    "struct-fu": "^1.2.1",
+    "tslog": "^4.9.2"
   }
 }
